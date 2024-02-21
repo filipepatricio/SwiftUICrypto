@@ -26,15 +26,15 @@ struct CoinRowView: View {
 }
 
 
-#Preview {
+#Preview("light", traits: .sizeThatFitsLayout) {
     Group{
         CoinRowView(coin: ModelData().coin, showHoldingsColumn: true)
-            .previewLayout(.sizeThatFits)
-        
-        CoinRowView(coin: ModelData().coin, showHoldingsColumn: true)
-            .previewLayout(.sizeThatFits)
-            .preferredColorScheme(.dark)
     }
+}
+
+#Preview("dark", traits: .sizeThatFitsLayout) {
+    CoinRowView(coin: ModelData().coin, showHoldingsColumn: true)
+        .preferredColorScheme(.dark)
 }
 
 extension CoinRowView{
