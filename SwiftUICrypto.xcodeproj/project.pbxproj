@@ -22,6 +22,7 @@
 		9B6FE7812B863C30001D04CA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6FE7802B863C30001D04CA /* HomeViewModel.swift */; };
 		9B6FE7832B863D20001D04CA /* ViewModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6FE7822B863D20001D04CA /* ViewModelData.swift */; };
 		9B6FE7862B8644D7001D04CA /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6FE7852B8644D7001D04CA /* CoinDataService.swift */; };
+		9B6FE7892B864B1C001D04CA /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6FE7882B864B1C001D04CA /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		9B6FE7802B863C30001D04CA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		9B6FE7822B863D20001D04CA /* ViewModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelData.swift; sourceTree = "<group>"; };
 		9B6FE7852B8644D7001D04CA /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		9B6FE7882B864B1C001D04CA /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				9B40D2402B8605E300E20DC3 /* SwiftUICryptoApp.swift */,
+				9B6FE7872B864AEA001D04CA /* Utilities */,
 				9B40D2502B86075300E20DC3 /* Extensions */,
 				9B6FE7842B8644B0001D04CA /* Services */,
 				9B40D25F2B86221F00E20DC3 /* Models */,
@@ -172,6 +175,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		9B6FE7872B864AEA001D04CA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9B6FE7882B864B1C001D04CA /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -255,6 +266,7 @@
 				9B40D25E2B860E2C00E20DC3 /* CircleButtonAnimationView.swift in Sources */,
 				9B391CE82B86312B0094727F /* Double.swift in Sources */,
 				9B40D2612B86223800E20DC3 /* CoinModel.swift in Sources */,
+				9B6FE7892B864B1C001D04CA /* NetworkingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
