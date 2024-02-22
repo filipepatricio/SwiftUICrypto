@@ -7,7 +7,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C57B56F1-891D-4177-B09E-703C768F46B0"
+            uuid = "279FA4E9-4F0B-4E06-B0A6-D9E33CFDF8FB"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -18,6 +18,38 @@
             endingLineNumber = "36"
             landmarkName = "handleUrlResponse(output:url:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "279FA4E9-4F0B-4E06-B0A6-D9E33CFDF8FB - e06cf0507722c2fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SwiftUICrypto.NetworkingManager.handleUrlResponse(output: (data: Foundation.Data, response: __C.NSURLResponse), url: Foundation.URL) throws -&gt; Foundation.Data"
+                  moduleName = "SwiftUICrypto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/filipepatricio/Github/Projects/SwiftUICrypto/SwiftUICrypto/Utilities/NetworkingManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "544">
+               </Location>
+               <Location
+                  uuid = "279FA4E9-4F0B-4E06-B0A6-D9E33CFDF8FB - e06cf0507722c2fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SwiftUICrypto.NetworkingManager.handleUrlResponse(output: (data: Foundation.Data, response: __C.NSURLResponse), url: Foundation.URL) throws -&gt; Foundation.Data"
+                  moduleName = "SwiftUICrypto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/filipepatricio/Github/Projects/SwiftUICrypto/SwiftUICrypto/Utilities/NetworkingManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "680">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
