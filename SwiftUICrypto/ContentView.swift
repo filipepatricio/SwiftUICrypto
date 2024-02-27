@@ -14,13 +14,13 @@ struct ContentView: View {
                 .ignoresSafeArea()
             VStack(spacing: 40){
                 Text("Accent Color")
-                    .foregroundColor(Color.theme.accent)
+                    .foregroundStyle(Color.theme.accent)
                 Text("Secondary Text Color")
-                    .foregroundColor(Color.theme.secondaryText)
+                    .foregroundStyle(Color.theme.secondaryText)
                 Text("Red Color")
-                    .foregroundColor(Color.theme.red)
+                    .foregroundStyle(Color.theme.red)
                 Text("Green Color")
-                    .foregroundColor(Color.theme.green)
+                    .foregroundStyle(Color.theme.green)
             }
         }
     }

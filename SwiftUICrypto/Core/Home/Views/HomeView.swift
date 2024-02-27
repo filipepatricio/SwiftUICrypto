@@ -76,7 +76,7 @@ extension HomeView{
             Text(showPortfolio ? "Portfolio": "Live Prices")
                 .font(.headline)
                 .fontWeight(.heavy)
-                .foregroundColor(.theme.accent)
+                .foregroundStyle(Color.theme.accent)
                 .animation(.none)
             Spacer()
             CircleButtonView(iconName: "chevron.right")
@@ -177,7 +177,7 @@ extension HomeView{
             .frame(width: UIScreen.main.bounds.width / 3.5, alignment: .trailing)
         }
         .font(.caption)
-        .foregroundColor(Color.theme.secondaryText)
+        .foregroundStyle(Color.theme.secondaryText)
         .padding(.horizontal)
     }
 }

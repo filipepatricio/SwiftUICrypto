@@ -34,7 +34,7 @@ struct PortfolioView: View {
                     }, label: {
                         Image(systemName: "xmark")
                             .font(.headline)
-                            .foregroundColor(Color.theme.secondaryText)
+                            .foregroundStyle(Color.theme.secondaryText)
                     })
                 }
                 ToolbarItem(placement: .topBarTrailing) {

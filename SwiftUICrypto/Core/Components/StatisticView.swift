@@ -15,10 +15,10 @@ struct StatisticView: View {
         VStack(alignment: .leading){
             Text(stat.title)
                 .font(.caption)
-                .foregroundColor(Color.theme.secondaryText)
+                .foregroundStyle(Color.theme.secondaryText)
             Text(stat.value)
                 .font(.headline)
-                .foregroundColor(Color.theme.accent)
+                .foregroundStyle(Color.theme.accent)
             HStack(spacing: 4) {
                 Image(systemName: "triangle.fill")
                     .font(.caption2)
@@ -29,7 +29,7 @@ struct StatisticView: View {
                     .font(.caption)
                     .bold()
             }
-            .foregroundColor(stat.percentageChange ?? 0 >= 0
+            .foregroundStyle(stat.percentageChange ?? 0 >= 0
                              ? Color.theme.green
                              : Color.theme.red)
             .opacity(stat.percentageChange == nil ? 0.0 : 1.0)
