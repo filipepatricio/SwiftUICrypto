@@ -19,7 +19,6 @@
 		9B3A75802B8E273A004E0BB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A757F2B8E273A004E0BB0 /* LaunchScreen.storyboard */; };
 		9B3A75822B8E28AB004E0BB0 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A75812B8E28AB004E0BB0 /* LaunchView.swift */; };
 		9B40D2412B8605E300E20DC3 /* SwiftUICryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B40D2402B8605E300E20DC3 /* SwiftUICryptoApp.swift */; };
-		9B40D2432B8605E300E20DC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B40D2422B8605E300E20DC3 /* ContentView.swift */; };
 		9B40D2482B8605E500E20DC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B40D2472B8605E500E20DC3 /* Preview Assets.xcassets */; };
 		9B40D24F2B86069800E20DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B40D24E2B86069700E20DC3 /* Assets.xcassets */; };
 		9B40D2522B86076700E20DC3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B40D2512B86076700E20DC3 /* Color.swift */; };
@@ -65,7 +64,6 @@
 		9B3A75812B8E28AB004E0BB0 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		9B40D23D2B8605E300E20DC3 /* SwiftUICrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B40D2402B8605E300E20DC3 /* SwiftUICryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICryptoApp.swift; sourceTree = "<group>"; };
-		9B40D2422B8605E300E20DC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B40D2472B8605E500E20DC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B40D24E2B86069700E20DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		9B40D2512B86076700E20DC3 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -192,7 +190,6 @@
 				9B6FE7842B8644B0001D04CA /* Services */,
 				9B40D25F2B86221F00E20DC3 /* Models */,
 				9B40D2532B860A0200E20DC3 /* Core */,
-				9B40D2422B8605E300E20DC3 /* ContentView.swift */,
 				9B40D24E2B86069700E20DC3 /* Assets.xcassets */,
 				9B40D2462B8605E500E20DC3 /* Preview Content */,
 			);
@@ -402,7 +399,6 @@
 				9B3A75742B8E0CE6004E0BB0 /* ChartView.swift in Sources */,
 				9B40D2632B86295600E20DC3 /* CoinRowView.swift in Sources */,
 				9B6FE7812B863C30001D04CA /* HomeViewModel.swift in Sources */,
-				9B40D2432B8605E300E20DC3 /* ContentView.swift in Sources */,
 				9B3A75762B8E12E4004E0BB0 /* Date.swift in Sources */,
 				9BE6CEBB2B878D4A00870233 /* MarketDataService.swift in Sources */,
 				9B40D2672B862E1800E20DC3 /* ModelData.swift in Sources */,
