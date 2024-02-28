@@ -111,6 +111,7 @@ extension HomeView{
                             EmptyView()
                         }.opacity(0)
                     )
+                    .listRowBackground(Color.theme.background)
             }
         }
         .listStyle(PlainListStyle())
@@ -132,6 +133,7 @@ extension HomeView{
                             EmptyView()
                         }.opacity(0)
                     )
+                    .listRowBackground(Color.theme.background)
             }
         }
         .listStyle(PlainListStyle())
